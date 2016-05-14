@@ -191,25 +191,37 @@ Long Leg is the + and short is the minus. In the PCB the square hole is the minu
 
 ## FRONT PANEL
 Place the front panel moving a little the parts one by one if necessary until you fit them to the top. At this point a sharp tweezers can be helpful.
+
 Screw in the next order: Minijacks and Pots.
+
 Until all of them are flat and touching completely the panel. Then (finally) solder all of them. ; )
-Place the LEDs in the panel holes making sure they are on the right level and proceed to solder them.
-Plug the PCB1 on the PCB2 using the pin headers and ensuring the two 3mm holes match the spacers. Screw both boards using two screws.
-Put the knobs on the potentiometers and the caps on the switches/faders
-Plug the power ribbon cable: The blue wire (negative) correspond to the pin number one of the connectors. The pin number one is indicated with a small triangle and usually with a line in your power bus.
+
+**Place the LEDs** in the panel holes making sure they are on the right level and proceed to solder them.
+
+**Plug the PCB1 on the PCB2** using the pin headers and ensuring the two 3mm holes match the spacers. Screw both boards using two screws.
+
+**Put the knobs** on the potentiometers and the caps on the switches/faders
+
+**Plug the power ribbon cable**: The blue wire (negative) correspond to the pin number one of the connectors. The pin number one is indicated with a small triangle and usually with a line in your power bus.
 
 ## ADJUSTMENT PROCEDURE
 We are going to calibrate the offset of the VCAs . Like this we will avoid CV signal to leak into audio signal.
 To follow this procedure we will use an audio cable to connect to a sound system (not headphones) and listen how much CV signal is leaking into our audio. Then we will use trimmers to reduce this leaking to minimum.
+
 Unplug all cables from front panel. Plug power connector. Connect “MIX” to your sound system (Turn the volume up after connecting, as the signal is pretty low. Be careful when connecting/disconnecting, you might damage your speakers).
 
-* **CV In calibration**.
+### CV In calibration
   1. Plug an oscillator into “IN 1 CV”. Set Fader to max and DRY/WET pot to wet position. Turn the trimmer above TP1 until you find the setup with the minimum volume of the oscillator.
   2. Plug an oscillator into “IN 2 CV”. Set Fader to max and DRY/WET pot to wet position. Turn the trimmer above TP2 until you find the setup with the minimum volume of the oscillator.
-* **DRY/WET Calibration**. This will be an iterative procedure between DRY and WET Positions. We will set each of them to get the minimum CV signal leaking, going back and forth until we get the best setup. Plug an oscillator in “MIX CV”.
-  1. Set DRY/WET Potentiometer to DRY position. Turn the trimmer above TP3 until you find the setup with the minimum volume of the oscillator.
-  2. Set DRY/WET Potentiometer to WET position. Turn the trimmer above TP4 until you find the setup with the minimum volume of the oscillator.
-  3. Repeat steps 1 and 2 until you get the minimum volume in both of them.
-  4. Move DRY/WET potentiometer to check if you get louder leaking in any position. If so, gently tweak TP3 and TP4 until you get rid of it or minimize it.
+
+### DRY/WET Calibration
+This will be an iterative procedure between DRY and WET Positions. We will set each of them to get the minimum CV signal leaking, going back and forth until we get the best setup.
+
+Plug an oscillator in “MIX CV”.
+
+1. Set DRY/WET Potentiometer to DRY position. Turn the trimmer above TP3 until you find the setup with the minimum volume of the oscillator.
+2. Set DRY/WET Potentiometer to WET position. Turn the trimmer above TP4 until you find the setup with the minimum volume of the oscillator.
+3. Repeat steps 1 and 2 until you get the minimum volume in both of them.
+4. Move DRY/WET potentiometer to check if you get louder leaking in any position. If so, gently tweak TP3 and TP4 until you get rid of it or minimize it.
 
 **Enjoy!**
