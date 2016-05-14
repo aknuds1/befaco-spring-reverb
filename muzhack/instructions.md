@@ -101,3 +101,117 @@ Place and solder the RCA connectors (same as the silkscreen on the PCB).
 
 **RCA-OUT pcb (White conector) –--> IN-Tank-Reverb (White conector)
  RCA-IN pcb (Red conector) –--> OUT-Tank-Reverb (Red conector)**
+
+## Control PCB
+**Open Control Board Bag A**
+
+### RESISTORS
+|Qty |Value |Code |Name on PCB|
+|----|------|-----|-----------|
+|1 |180 Ohm |Brown, grey, Black,Black,Brown |R109|
+|4 |1k |Brown, Black, Black, Brown, Brown |R101, R104, R106, R114|
+|1 |2.7k |Red, Purple, Black,Brown,Brown |R102|
+|3 |10k |Brown, Black, Black, Red, Brown |R103, R108, R112|
+|4 |100k |Brown,Black,Black,Orange,Brown |R100, R110,R111,R113|
+|2 |1M |Brown,Black,Black,Yellow,Brown |R105, R107|
+
+### DIODES
+Solder diodes respecting the polarity. Black line on the diode must be in the same place as white line on the diode PCB silkscreen.
+
+|Qty |Value |Name on PCB|
+|----|------|-----------|
+|1 |1N4148 |D100|
+|1 |1N5231 |D101|
+
+### ICs
+Place the sockets taking care of the orientation and solder them on IC100 and IC101. The orientation must match the PCB's drawing.
+Place the five ICs on the sockets taking care of polarity. To do that the mark on front must match the mark on the socket and the PCB's silkscreen.
+
+|Qty |Value |Name on PCB|
+|----|------|-----------|
+|1 |LM3914N |IC100|
+|1 |TL072/82 |IC101|
+
+### CAPACITORS
+|Qty |Value |Code |Name on PCB|
+|----|------|-----|-----------|
+|2 |100n |104 |C101, C102|
+|1 |680n |684 |C100|
+|1 |10µF |10µF |C103|
+
+### FEMALE PIN HEADERS
+Place the three female pin headers and solder them ensuring it is 90º from PCB.
+
+**Open Control Board Bag B**
+### FADERS
+Solder the faders in the side indicated by the drawing ensuring they are 90º from PCB.
+
+|Qty |Name on PCB|
+|----|-----------|
+|2| |
+
+### SPACERS
+Place the two spacers on the holes using his the male side and facing to the resistor's side of the PCB. Then fix with the two 3mm nuts.
+
+### Front pannel components mounting tips
+Now we will proceed to mount Jacks, potentiometers, switches and LEDs. This part of assembly is
+CRITICAL. Please be gentle and read carefully the instructions.
+These components must NEVER be soldered until they are placed and/or totally screwed to the front panel.
+This is so because of two reasons:
+* The height of panel components is not exactly the same. Because of this, if not screwed properly
+before soldering, they will not stay properly seated to the panel. This might cause mechanical
+torsions, reducing their life expectancy and in worst cases they will break.
+* The second reason is that it is very difficult to hit the holes if panel is not positioned before
+soldering. In LEDs case they are almost impossible to place to the exact height without reference
+of the front panel.
+
+**Open MiniJacks bag**
+
+### MINIJACKS
+Place minijacks ensuring they are by the silkscreen side but don't solder them until the front panel is on place and with all nuts screwed to it. This way it's easier to solder them on the right position. Keep in mind that the front panel holes are quite
+narrow and is almost impossible to place it with all the components already soldered.
+Caution: the switch nuts and the jack nuts looks the same but they are not and will not fit in each other's thread so don't mix them!
+
+### POTENTIOMETER
+Cut the little ledge on all three pots with cutting pliers as pictured:
+Now place potentiometers on the PCB but... **don't solder them**
+
+|Qty |Type |Name on PCB|
+|----|-----|-----------|
+|2 |Single (3pin) 100K |HPF, MIX|
+
+### LEDs
+Put LEDs on place taking care of the polarity. but don't solder them until the front panel is on place. This the only way to solder them on the right position.
+Long Leg is the + and short is the minus. In the PCB the square hole is the minus and there is a + symbol to indicate you the right position.
+
+|Qty |Name on PCB|
+|----|-----------|
+|1 |LED_01 Red|
+|2 |LEDs_02. 03 Yellow|
+|4 |LEDs_04, 05, 06, 07 Green|
+|1 |Duoled|
+
+### FRONT PANEL
+Place the front panel moving a little the parts one by one if necessary until you fit them to the top. At this point a sharp tweezers can be helpful.
+Screw in the next order: Minijacks and Pots.
+Until all of them are flat and touching completely the panel. Then (finally) solder all of them. ; )
+Place the LEDs in the panel holes making sure they are on the right level and proceed to solder them.
+Plug the PCB1 on the PCB2 using the pin headers and ensuring the two 3mm holes match the spacers. Screw both boards using two screws.
+Put the knobs on the potentiometers and the caps on the switches/faders
+Plug the power ribbon cable: The blue wire (negative) correspond to the pin number one of the connectors. The pin number one is indicated with a small triangle and usually with a line in your power bus.
+
+### ADJUSTMENT PROCEDURE
+We are going to calibrate the offset of the VCAs . Like this we will avoid CV signal to leak into audio signal.
+To follow this procedure we will use an audio cable to connect to a sound system (not headphones) and listen how much CV signal is leaking into our audio. Then we will use trimmers to reduce this leaking to minimum.
+Unplug all cables from front panel. Plug power connector. Connect “MIX” to your sound system (Turn the volume up after connecting, as the signal is pretty low. Be careful when connecting/disconnecting, you might damage your speakers).
+- CV In calibration.
+  1. Plug an oscillator into “IN 1 CV”. Set Fader to max and DRY/WET pot to wet position. Turn the trimmer above TP1 until you find the setup with the minimum volume of the oscillator.
+  2. Plug an oscillator into “IN 2 CV”. Set Fader to max and DRY/WET pot to wet position. Turn the trimmer above TP2 until you find the setup with the minimum volume of the oscillator.
+- DRY/WET Calibration.
+This will be an iterative procedure between DRY and WET Positions. We will set each of them to get the minimum CV signal leaking, going back and forth until we get the best setup. Plug an oscillator in “MIX CV”.
+  1. Set DRY/WET Potentiometer to DRY position. Turn the trimmer above TP3 until you find the setup with the minimum volume of the oscillator.
+  2. Set DRY/WET Potentiometer to WET position. Turn the trimmer above TP4 until you find the setup with the minimum volume of the oscillator.
+  3. Repeat steps 1 and 2 until you get the minimum volume in both of them.
+  4. Move DRY/WET potentiometer to check if you get louder leaking in any position. If so, gently tweak TP3 and TP4 until you get rid of it or minimize it.
+
+**Enjoy!**
