@@ -167,12 +167,12 @@ of the front panel.
 
 **Open MiniJacks bag**
 
-### MINIJACKS
+## MINIJACKS
 Place minijacks ensuring they are by the silkscreen side but don't solder them until the front panel is on place and with all nuts screwed to it. This way it's easier to solder them on the right position. Keep in mind that the front panel holes are quite
 narrow and is almost impossible to place it with all the components already soldered.
 Caution: the switch nuts and the jack nuts looks the same but they are not and will not fit in each other's thread so don't mix them!
 
-### POTENTIOMETER
+## POTENTIOMETER
 Cut the little ledge on all three pots with cutting pliers as pictured:
 Now place potentiometers on the PCB but... **don't solder them**
 
@@ -180,7 +180,7 @@ Now place potentiometers on the PCB but... **don't solder them**
 |----|-----|-----------|
 |2 |Single (3pin) 100K |HPF, MIX|
 
-### LEDs
+## LEDs
 Put LEDs on place taking care of the polarity. but don't solder them until the front panel is on place. This the only way to solder them on the right position.
 Long Leg is the + and short is the minus. In the PCB the square hole is the minus and there is a + symbol to indicate you the right position.
 
@@ -191,7 +191,7 @@ Long Leg is the + and short is the minus. In the PCB the square hole is the minu
 |4 |LEDs_04, 05, 06, 07 Green|
 |1 |Duoled|
 
-### FRONT PANEL
+## FRONT PANEL
 Place the front panel moving a little the parts one by one if necessary until you fit them to the top. At this point a sharp tweezers can be helpful.
 Screw in the next order: Minijacks and Pots.
 Until all of them are flat and touching completely the panel. Then (finally) solder all of them. ; )
@@ -200,15 +200,15 @@ Plug the PCB1 on the PCB2 using the pin headers and ensuring the two 3mm holes m
 Put the knobs on the potentiometers and the caps on the switches/faders
 Plug the power ribbon cable: The blue wire (negative) correspond to the pin number one of the connectors. The pin number one is indicated with a small triangle and usually with a line in your power bus.
 
-### ADJUSTMENT PROCEDURE
+## ADJUSTMENT PROCEDURE
 We are going to calibrate the offset of the VCAs . Like this we will avoid CV signal to leak into audio signal.
 To follow this procedure we will use an audio cable to connect to a sound system (not headphones) and listen how much CV signal is leaking into our audio. Then we will use trimmers to reduce this leaking to minimum.
 Unplug all cables from front panel. Plug power connector. Connect “MIX” to your sound system (Turn the volume up after connecting, as the signal is pretty low. Be careful when connecting/disconnecting, you might damage your speakers).
-- CV In calibration.
+
+* **CV In calibration**.
   1. Plug an oscillator into “IN 1 CV”. Set Fader to max and DRY/WET pot to wet position. Turn the trimmer above TP1 until you find the setup with the minimum volume of the oscillator.
   2. Plug an oscillator into “IN 2 CV”. Set Fader to max and DRY/WET pot to wet position. Turn the trimmer above TP2 until you find the setup with the minimum volume of the oscillator.
-- DRY/WET Calibration.
-This will be an iterative procedure between DRY and WET Positions. We will set each of them to get the minimum CV signal leaking, going back and forth until we get the best setup. Plug an oscillator in “MIX CV”.
+* **DRY/WET Calibration**. This will be an iterative procedure between DRY and WET Positions. We will set each of them to get the minimum CV signal leaking, going back and forth until we get the best setup. Plug an oscillator in “MIX CV”.
   1. Set DRY/WET Potentiometer to DRY position. Turn the trimmer above TP3 until you find the setup with the minimum volume of the oscillator.
   2. Set DRY/WET Potentiometer to WET position. Turn the trimmer above TP4 until you find the setup with the minimum volume of the oscillator.
   3. Repeat steps 1 and 2 until you get the minimum volume in both of them.
