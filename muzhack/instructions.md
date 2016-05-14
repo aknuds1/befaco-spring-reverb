@@ -158,18 +158,16 @@ Now we will proceed to mount Jacks, potentiometers, switches and LEDs. This part
 CRITICAL. Please be gentle and read carefully the instructions.
 These components must NEVER be soldered until they are placed and/or totally screwed to the front panel.
 This is so because of two reasons:
+
 * The height of panel components is not exactly the same. Because of this, if not screwed properly
-before soldering, they will not stay properly seated to the panel. This might cause mechanical
-torsions, reducing their life expectancy and in worst cases they will break.
-* The second reason is that it is very difficult to hit the holes if panel is not positioned before
-soldering. In LEDs case they are almost impossible to place to the exact height without reference
+before soldering, they will not stay properly seated to the panel. This might cause mechanical torsions, reducing their life expectancy and in worst cases they will break.
+* The second reason is that it is very difficult to hit the holes if panel is not positioned before soldering. In LEDs case they are almost impossible to place to the exact height without reference
 of the front panel.
 
 **Open MiniJacks bag**
 
 ## MINIJACKS
-Place minijacks ensuring they are by the silkscreen side but don't solder them until the front panel is on place and with all nuts screwed to it. This way it's easier to solder them on the right position. Keep in mind that the front panel holes are quite
-narrow and is almost impossible to place it with all the components already soldered.
+Place minijacks ensuring they are by the silkscreen side but don't solder them until the front panel is on place and with all nuts screwed to it. This way it's easier to solder them on the right position. Keep in mind that the front panel holes are quite narrow and is almost impossible to place it with all the components already soldered.
 Caution: the switch nuts and the jack nuts looks the same but they are not and will not fit in each other's thread so don't mix them!
 
 ## POTENTIOMETER
