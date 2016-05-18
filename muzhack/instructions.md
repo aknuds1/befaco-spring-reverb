@@ -172,6 +172,9 @@ Caution: the switch nuts and the jack nuts looks the same but they are not and w
 
 ## POTENTIOMETER
 Cut the little ledge on all three pots with cutting pliers as pictured:
+
+![Potentiometer](http://aknuds1.github.io/befaco-spring-reverb/pictures/potmeter.png "Potentiometer")
+
 Now place potentiometers on the PCB but... **don't solder them**
 
 |Qty |Type |Name on PCB|
