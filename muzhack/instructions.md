@@ -2,8 +2,7 @@
 **Thanks for choosing our kits!**
 This manual is written taking with the problems that we usually find in our workshops in mind.
 Also the order is meant to make assembly as easy as possible.
-Some steps are not obvious so even if you're an experienced DIYer, read the steps completely before
-taking them.
+Some steps are not obvious so even if you're an experienced DIYer, read the steps completely before taking them.
 If this is your first project, please read this article before you start assembling the kit: [www.befaco.org/howto/](http://www.befaco.org/howto/)
 
 **May the luck be with you!**
@@ -154,15 +153,12 @@ Solder the faders in the side indicated by the drawing ensuring they are 90º fr
 Place the two spacers on the holes using his the male side and facing to the resistor's side of the PCB. Then fix with the two 3mm nuts.
 
 ### Front pannel components mounting tips
-Now we will proceed to mount Jacks, potentiometers, switches and LEDs. This part of assembly is
-CRITICAL. Please be gentle and read carefully the instructions.
+Now we will proceed to mount Jacks, potentiometers, switches and LEDs. This part of assembly is CRITICAL. Please be gentle and read carefully the instructions.
 These components must NEVER be soldered until they are placed and/or totally screwed to the front panel.
 This is so because of two reasons:
 
-* The height of panel components is not exactly the same. Because of this, if not screwed properly
-before soldering, they will not stay properly seated to the panel. This might cause mechanical torsions, reducing their life expectancy and in worst cases they will break.
-* The second reason is that it is very difficult to hit the holes if panel is not positioned before soldering. In LEDs case they are almost impossible to place to the exact height without reference
-of the front panel.
+* The height of panel components is not exactly the same. Because of this, if not screwed properly before soldering, they will not stay properly seated to the panel. This might cause mechanical torsions, reducing their life expectancy and in worst cases they will break.
+* The second reason is that it is very difficult to hit the holes if panel is not positioned before soldering. In LEDs case they are almost impossible to place to the exact height without reference of the front panel.
 
 **Open MiniJacks bag**
 
