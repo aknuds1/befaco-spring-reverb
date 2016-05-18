@@ -1,7 +1,6 @@
 DIY kit version of our voltage controlled spring reverb.
 
-This kit has all the necessary parts to build, including front panel and power cord.
-It includes Minijacks by default but it is also compatible with bananas (supplied on request at the same price).
+This kit has all the necessary parts to build, including front panel and power cord. It includes Minijacks by default but it is also compatible with bananas (supplied on request at the same price).
 
 In order to permit assembly with easily available tools, all our kits come with hex nuts and not with round nuts as the assembled modules.
 
