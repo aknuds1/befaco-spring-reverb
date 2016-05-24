@@ -33,7 +33,7 @@ If this is your first project, please read this article before you start assembl
 |7 |1M |Brown, black, black, yellow, brown |R9, R19, R23, R24, R33, R58, R66|
 
 ### DIODES
-Solder the diodes respecting the polarity. Black or white line on the diode must be in the same place as white line on diode symbol on PCB silkscreen.
+Solder the diodes respecting the polarity. A black or white line on the diode must be in the same place as the white line on the diode symbol on the PCB silkscreen.
 
 |Qty |Value |Name on PCB|
 |----|------|-----------|
@@ -87,10 +87,10 @@ Be sure they are on proper position (same as the silkscreen on the PCB)
 |1 |BC516 |Q2|
 
 ### TRIMMERS
-Solder the four 100k trimmers on Offset 1, 2, 3, 4 with the screw facing out of the PCB
+Solder the four 100k trimmers on Offset 1, 2, 3, 4 with the screw facing out of the PCB.
 
 ### MALE PIN HEADERS
-Place and solder the tree Male Pin Headers at silkscreen side, ensuring it is 90º from PCB. Shortest side of the pins is for soldering.
+Place and solder the tree Male Pin Headers at silkscreen side, ensuring it is 90º from PCB. The shortest side of the pins is for soldering.
 
 ### POWER CONNECTOR
 Solder the power connector ensuring the position is correct: it must must be on the silkscreen side with the pins facing out.
@@ -115,7 +115,7 @@ Place and solder the RCA connectors (same as the silkscreen on the PCB).
 |2 |1M |Brown,Black,Black,Yellow,Brown |R105, R107|
 
 ### DIODES
-Solder diodes respecting the polarity. Black line on the diode must be in the same place as white line on the diode PCB silkscreen.
+Solder the diodes respecting the polarity. The black line on the diode must be in the same place as the white line on the diode PCB silkscreen.
 
 |Qty |Value |Name on PCB|
 |----|------|-----------|
@@ -152,10 +152,10 @@ Solder the faders in the side indicated by the drawing ensuring they are 90º fr
 ### SPACERS
 Place the two spacers on the holes using his the male side and facing to the resistor's side of the PCB. Then fix with the two 3mm nuts.
 
-### Front pannel components mounting tips
-Now we will proceed to mount Jacks, potentiometers, switches and LEDs. This part of assembly is CRITICAL. Please be gentle and read carefully the instructions.
+### Front panel components mounting tips
+Now we will proceed to mount Jacks, potentiometers, switches and LEDs. This part of assembly is CRITICAL. Please be gentle and carefully read the instructions.
 These components must NEVER be soldered until they are placed and/or totally screwed to the front panel.
-This is so because of two reasons:
+This is for two reasons:
 
 * The height of panel components is not exactly the same. Because of this, if not screwed properly before soldering, they will not stay properly seated to the panel. This might cause mechanical torsions, reducing their life expectancy and in worst cases they will break.
 * The second reason is that it is very difficult to hit the holes if panel is not positioned before soldering. In LEDs case they are almost impossible to place to the exact height without reference of the front panel.
@@ -179,7 +179,7 @@ Now place potentiometers on the PCB but... **don't solder them**
 
 ## LEDs
 Put LEDs on place taking care of the polarity. but don't solder them until the front panel is on place. This the only way to solder them on the right position.
-Long Leg is the + and short is the minus. In the PCB the square hole is the minus and there is a + symbol to indicate you the right position.
+The long leg is the + and the short leg is the minus. In the PCB the square hole is the minus and there is a + symbol to indicate the right position.
 
 |Qty |Name on PCB|
 |----|-----------|
@@ -189,7 +189,7 @@ Long Leg is the + and short is the minus. In the PCB the square hole is the minu
 |1 |Duoled|
 
 ## FRONT PANEL
-Place the front panel moving a little the parts one by one if necessary until you fit them to the top. At this point a sharp tweezers can be helpful.
+Place the front panel moving a little the parts one by one if necessary until you fit them to the top. At this point a sharp pair of tweezers can be helpful.
 
 Screw in the next order: Minijacks and Pots.
 
@@ -205,7 +205,7 @@ Until all of them are flat and touching completely the panel. Then (finally) sol
 
 ## ADJUSTMENT PROCEDURE
 We are going to calibrate the offset of the VCAs . Like this we will avoid CV signal to leak into audio signal.
-To follow this procedure we will use an audio cable to connect to a sound system (not headphones) and listen how much CV signal is leaking into our audio. Then we will use trimmers to reduce this leaking to minimum.
+To follow this procedure we will use an audio cable to connect to a sound system (not headphones) and listen to how much CV signal is leaking into our audio. Then we will use trimmers to reduce this leaking to minimum.
 
 Unplug all cables from front panel. Plug power connector. Connect “MIX” to your sound system (Turn the volume up after connecting, as the signal is pretty low. Be careful when connecting/disconnecting, you might damage your speakers).
 
