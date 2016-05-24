@@ -1,5 +1,5 @@
 # SPRING REVERB V2.5 ASSEMBLY REFERENCE
-**Please note that this is an unofficial project page, the official one is [here](http://www.befaco.org/en/spring-reverb/).***
+**Please note that this is an unofficial project page, the official one is [here](http://www.befaco.org/en/spring-reverb/).**
 
 **Thanks for choosing our kits!**
 This manual is written taking with the problems that we usually find in our workshops in mind.
