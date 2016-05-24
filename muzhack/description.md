@@ -1,4 +1,6 @@
-DIY kit version of our voltage controlled spring reverb.
+# DIY kit version of our voltage controlled spring reverb.
+
+**Please note that this is an unofficial project page, the official one is [here](http://www.befaco.org/en/spring-reverb/).***
 
 This kit has all the necessary parts to build, including front panel and power cord. It includes Minijacks by default but it is also compatible with bananas (supplied on request at the same price).
 
