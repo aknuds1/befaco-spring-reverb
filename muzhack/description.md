@@ -18,3 +18,6 @@ If you need further technical assistance please look at our [basic troubleshooti
 In case you panic and cannot make it work you can get our “Happy Ending pack” that includes technical service, parts and reshipping back to you.
 
 Still not sure? You can get an assembled unit [here](http://www.befaco.org/en/tienda/spring-reverb/).
+
+[!soundcloud](befaco/golum-reverb-1)
+[!soundcloud](befaco/reverb-demo-1)
