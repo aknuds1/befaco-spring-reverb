@@ -19,5 +19,5 @@ In case you panic and cannot make it work you can get our â€œHappy Ending packâ€
 
 Still not sure? You can get an assembled unit [here](http://www.befaco.org/en/tienda/spring-reverb/).
 
-[!soundcloud](befaco/golum-reverb-1)
-[!soundcloud](befaco/reverb-demo-1)
+[!soundcloud](156301502)
+[!soundcloud](156301499)
